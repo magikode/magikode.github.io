@@ -39,6 +39,10 @@
 	margin-top: 15px;
 }
 
+#magikode-instructions .panel-heading, #magikode-work .panel-heading {
+	font-weight: bold;
+}
+
 #magikode-instructions, #magikode-work {
 	width: 45%;
 	float: left;
