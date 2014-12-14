@@ -1,0 +1,50 @@
+.magikode-logo {
+	color: #AA0000;
+	font-family: fantasy;
+	font-size: 30px;
+}
+
+#magikode-header {
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.magikode-welcome {
+	margin-left: -50px;
+}
+
+#magikode-selection {
+	margin-left: 20px;
+	margin-right: 20px;
+	position: absolute;
+	left: 20px;
+}
+
+#magikode-done {
+	float: right;
+}
+
+#magikode-round {
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px dashed gray;
+	background-color: #eee;
+}
+
+#magikode-codarea-wrapper {
+	border: 2px solid #ccc;
+	border-radius: 8px;
+	margin-top: 15px;
+}
+
+#magikode-instructions, #magikode-work {
+	width: 45%;
+	float: left;
+	height: 100%;
+	margin: 0 2%;
+}
+.glyphicon {
+	margin-left: 10px;
+}

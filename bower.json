@@ -1,0 +1,31 @@
+{
+  "name": "magikode",
+  "version": "0.1.0",
+  "authors": [
+    "Thomas Besluau <tbesluau@gmail.com>"
+  ],
+  "description": "Simple coding exercise framework",
+  "main": "main.js",
+  "keywords": [
+    "framework",
+    "coding",
+    "exercise",
+    "exercises",
+    "code",
+    "education"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+	"bootstrap": "^3",
+	"codemirror": "^4",
+	"jquery": "^2",
+	"require": "git@github.com:jrburke/requirejs.git#^2"
+  }
+}

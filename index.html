@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Magikode</title>
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="bower_components/codemirror/lib/codemirror.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<div id="all-wrapper">
+			<div id="magikode-workspace"></div>
+		</div>
+		<script src="bower_components/require/require.js"></script>
+		<script type="application/javascript">
+			require.config({
+				paths: {
+					bootstrap: 'bower_components/bootstrap/dist/js/bootstrap',
+					codemirror: 'bower_components/codemirror',
+					exercises: 'exercises',
+					jquery: 'bower_components/jquery/dist/jquery'
+				},
+				shim: {
+					bootstrap: {
+						deps: ['jquery']
+					}
+				}
+			});
+		</script>
+		<script src="main.js"></script>
+	</body>
+</html>
