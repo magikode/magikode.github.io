@@ -26,11 +26,19 @@ define(['jquery', 'text!templates/achievement.html'], function ($, Template) {
 			badge.find('.modal-body').html(
 				'<img class="magikode-modal-image" src="' + acv.image + '" />' +
 				'<div class="magikode-modal-description">' + acv.description + '</div>');
-			badge.find('.magikode-share').click(function () {
-				badge.find('.modal-body').html('No sharing implemented at that point');
+			badge.find('#magikode-button-close').click(function () {
+				localStorage.setItem('magikode:achievement:' + acv.key, 'given');
 			});
 			badge.modal();
-			localStorage.setItem('magikode:achievement:' + acv.key, 'given');
+			stWidget.addEntry({
+				service: 'sharethis',
+				element: $('#magikode-button-share')[0],
+				url: 'http://tbesluau.github.io',
+				title: 'I just got the "' + acv.title + '" achievement on Magikode',
+				type: 'large',
+				image: 'http://tbesluau.github.io' + acv.image,
+				summary: 'Magikode is a free and open coding exercise platform. Learn some magic, learn to code!'
+			});
 		};
 	};
 

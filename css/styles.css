@@ -62,3 +62,10 @@
 .magikode-modal-description {
 	padding: 10px;
 }
+
+#magikode-button-share {
+}
+
+#magikode-button-share > span {
+	display: none!important;
+}
