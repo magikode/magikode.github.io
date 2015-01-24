@@ -11,7 +11,7 @@ define(function () {
 		},
 		rounds: [
 			{
-				instruction: 'Work in progress, come back soon for more exercices, your progress will be saved!',
+				instruction: 'Work in progress, come back soon for more exercises, your progress will be saved!',
 				input: [1, 2],
 				output: [2, 4]
 			}
