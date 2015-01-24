@@ -26,6 +26,7 @@
 	"bootstrap": "^3",
 	"codemirror": "^4",
 	"jquery": "^2",
-	"require": "git@github.com:jrburke/requirejs.git#^2"
+	"require": "git@github.com:jrburke/requirejs.git#^2",
+	"text": "git@github.com:requirejs/text.git#^2"
   }
 }

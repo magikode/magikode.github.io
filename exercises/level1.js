@@ -2,8 +2,14 @@
 define(function () {
 	return {
 		key: 'lvl1',
-		title: 'Function Basics',
+		title: 'Basics: Functions',
 		description: 'In this first exercise, we will focus on the basic understanding of a javascript function. At any time during this exercise, feel free to read and use the w3schools\' page about functions at <a href="http://www.w3schools.com/js/js_functions.asp" target="_blank">http://www.w3schools.com/js/js_functions.asp</a>.',
+		achievement: {
+			key: 'lvl1',
+			title: 'Grass Hopper',
+			image: '/badges/lvl1.png',
+			description: 'Waouh, what is that? This is an achievement notification, for completing the first exercise. Unlock additional achievements as you progress through the exercises.'
+		},
 		rounds: [
 			{
 				key: 'basic1',
