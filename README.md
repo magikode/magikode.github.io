@@ -13,4 +13,6 @@ This is not about learning Javascript but rather about learning algorithmics/how
 
 ## How to use it?
 
-Website coming soon, for now you can just download the zipfile, extract, then launch index.html.
+http://tbesluau.github.io
+
+Enjoy :-)
