@@ -13,6 +13,6 @@ This is not about learning Javascript but rather about learning algorithmics/how
 
 ## How to use it?
 
-http://tbesluau.github.io
+http://magikode.github.io
 
 Enjoy :-)
