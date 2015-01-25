@@ -28,7 +28,12 @@ define(['jquery', 'codemirror/lib/codemirror', 'codemirror/mode/javascript/javas
 		};
 
 		this.testResult = function () {
-			eval(self.cm.getValue());
+			try {
+				eval(self.cm.getValue());
+			} catch (err) {
+				self.display(false, 'Your syntax is incorrect, please double check it:<br />"' + err + '"');
+				return;
+			}
 			if (myFunction.apply(null, self.round.input) == self.round.output) {
 				localStorage.setItem('magikode:' + self.exo.key + ':' + self.round.key, 'done');
 				dom.trigger('round:completed');

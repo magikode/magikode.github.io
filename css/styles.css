@@ -69,3 +69,7 @@
 #magikode-button-share > span {
 	display: none!important;
 }
+
+#magikode-result-message strong {
+	padding-right: 10px;
+}
