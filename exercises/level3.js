@@ -27,11 +27,19 @@ define(function () {
 				hint: '"a" + " " + "b" = "a b"'
 			},
 			{
-				key: 'basic3',
+				key: 'medium1',
 				instruction: 'You\'re getting good at this. Now let\'s make a function that takes a string and returns the number of characters in the string using the length attribute of the string.',
 				input: ['abcqwertgfds'],
 				output: 12,
 				init: 'var myFunction = function (s) {\n\n};',
+				hint: 'Don\'t overthing this, it\'s just about returning the length attr. of the string.'
+			},
+			{
+				key: 'medium2',
+				instruction: 'Now let\'s make our function take two strings as an argument, and return the number of occurences of the second string in the first one. We can use the split method of a string as follow: \'I am a string with a few words starting with an a...\'.split(\' a\') returns [\'I\', \'m\', \' string with a few words starting with\', \'n\', \'...\'].',
+				input: ['abcqwagahgdhjsgas', 'a'],
+				output: 4,
+				init: 'var myFunction = function (largeString, countedString) {\n\n};',
 				hint: 'Don\'t overthing this, it\'s just about returning the length attr. of the string.'
 			}
 		]
