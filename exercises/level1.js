@@ -8,7 +8,7 @@ define(function () {
 			key: 'lvl1',
 			title: 'Grass Hopper',
 			image: '/badges/lvl1.png',
-			description: 'Waouh, what is that? This is an achievement notification, for completing the first exercise. Unlock additional achievements as you progress through the exercises.'
+			description: 'Wow, what is that? This is an achievement notification, for completing the first exercise. Unlock additional achievements as you progress through the exercises.'
 		},
 		rounds: [
 			{
