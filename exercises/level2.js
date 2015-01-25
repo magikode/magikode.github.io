@@ -3,7 +3,7 @@ define(function () {
 	return {
 		key: 'lvl2',
 		title: 'Basics: Object Manipulation',
-		description: 'This exercise is about using objects and properties. For some brush up on Javascript objects, you can check <a href="http://www.w3schools.com/js/js_objects.asp" target="_blank">http://www.w3schools.com/js/js_objects.asp</a>',
+		description: 'This exercise is about using objects and properties. For some brush up on Javascript objects, you can check <a href="http://www.w3schools.com/js/js_objects.asp" target="_blank">w3schools</a>',
 		achievement: {
 			key: 'lvl2',
 			title: 'Commoner',
