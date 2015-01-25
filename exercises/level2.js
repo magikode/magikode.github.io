@@ -8,7 +8,7 @@ define(function () {
 			key: 'lvl2',
 			title: 'Commoner',
 			image: '/badges/lvl2.png',
-			description: 'Is that really an achievement you ask? Not really, but it\'s better than a grass hopper :-) Keep working on those exercises to climb the achievement ladder.'
+			description: 'Is that really an achievement you ask? Well at least it\'s better than grass hopper :-) Keep working on those exercises to climb the achievement ladder.'
 		},
 		rounds: [
 			{
